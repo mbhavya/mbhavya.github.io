@@ -1,0 +1,6 @@
+{
+  "name": "Mbhavya.GitHub.io",
+  "tagline": "Personal ",
+  "body": "<html>\r\n\t<head>\r\n\t\t<title>Bhavya Maheshwari, Software Engineer</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<nav>\r\n    \t\t<ul>\r\n        \t\t<li><a href=\"/\">To Do - Home</a></li>\r\n\t        \t<li><a href=\"/about\">To Do - About</a></li>\r\n        \t\t<li><a href=\"/cv\">To Do - CV</a></li>\r\n        \t\t<li><a href=\"/blog\">To Do - Blog</a></li>\r\n    \t\t</ul>\r\n\t\t</nav>\r\n\t\t<div class=\"container\">\r\n    \t\t<div class=\"blurb\">\r\n        \t\t<h1>Hi there, I'm Bhavya Maheshwari!</h1>\r\n\t\t\t\t<p>I'm a <em>Software Engineer @ IBM</em>.\r\n    \t\t</div>\r\n\t\t</div>\r\n\t\t<footer>\r\n    \t\t<ul>\r\n        \t\t<li><a href=\"mailto:bhavya.maheshwari@in.ibm.com\">Professional email</a></li>\r\n        \t\t<li><a href=\"mailto:bhavyaaha@gmail.com\">Personal email</a></li>\r\n        \t\t<li><a href=\"https://github.com/mbhavya\">github.com/mbhavya</a></li>\r\n\t\t\t</ul>\r\n\t\t</footer>\r\n\t</body>\r\n</html>",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
