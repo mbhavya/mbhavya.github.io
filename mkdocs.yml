@@ -2,7 +2,7 @@ site_name: Bhavya Maheshwari's website
 
 repo_url: https://github.com/mbhavya/mbhavya.github.io
 repo_name: github.com/mbhavya
-edit_uri: edit/main/docs
+
 theme:
   name: material
   language: en
