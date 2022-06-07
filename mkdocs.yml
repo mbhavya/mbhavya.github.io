@@ -2,7 +2,7 @@ site_name: Bhavya Maheshwari's website
 
 repo_url: https://github.com/mbhavya/mbhavya.github.io
 repo_name: github.com/mbhavya
-
+edit_uri: edit/main/docs
 theme:
   name: material
   language: en
@@ -28,15 +28,49 @@ extra:
     default: stable
 
 plugins:
-  - search
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+
 
 markdown_extensions:
+  - meta
+  - abbr
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.smartsymbols
+  - toc:
+      permalink: true
+      toc_depth: 3
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
 
-      
+nav:
+  - Home: index.md
+  - Playground:
+    - Cloud Native:
+      - Ory Oathkeeper: cloud_native/oathkeeper.md
+      - Open Telemetry: cloud_native/otel.md
+      - knative: cloud_native/knative.md
+    - Distributed Computing:
+      - Dask: distributed_computing/dask.md
+      - Ray: distributed_computing/ray.md 
+    - Data Science:
+      - Rasa: data_science/rasa.md
+    - Data Engineering:
+      - Prefect: data_engineering/prefect.md
+      - DatahubProject: data_engineering/datahubproject.md
+    - Tech Stuff:
+      - API Contracts: tech_stuff/pact.md
+      - Kubernetes Utilities: tech_stuff/k8s_utils.md
